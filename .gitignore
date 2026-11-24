@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+backend/target/
+backend/data/
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Runner/GeneratedPluginRegistrant.*
+frontend/ios/Flutter/ephemeral/
+frontend/android/key.properties
+.idea/
+*.iml
+frontend/.metadata
+
+# Local browser map API key
+frontend/web/maps-config.js

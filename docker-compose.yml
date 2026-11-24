@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: foodmarks
+      POSTGRES_USER: foodmarks
+      POSTGRES_PASSWORD: foodmarks
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - foodmarks-db:/var/lib/postgresql/data
+volumes:
+  foodmarks-db:

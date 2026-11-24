@@ -1,0 +1,35 @@
+{
+  "name": "한입 수첩",
+  "short_name": "한입 수첩",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#9C482B",
+  "description": "SNS에서 발견한 맛집을 모으는 수첩",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
